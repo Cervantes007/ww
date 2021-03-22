@@ -38,6 +38,7 @@
   "scripts": {
     "api": "ts-node-dev --respawn example/index.ts",
     "build": "tsc",
+    "commit": "git-cz",
     "docs": "yarn docs:generate && yarn docs:build",
     "docs:start": "yarn docs:generate && vuepress dev docs",
     "docs:generate": "rimraf docs && typedoc && cp -r vuepress/* docs/ && cp -r vuepress/.vuepress docs",
@@ -45,7 +46,8 @@
     "docs:cp": "cp -r vuepress/* docs/",
     "docs:build": "vuepress build docs",
     "docs:serve": "yarn docs && serve docs/.vuepress/dist",
-    "lint": "eslint --ignore-pattern '/lib/' '*/**/*.ts' --quiet --fix"
+    "lint": "eslint --ignore-pattern '/lib/' '*/**/*.ts' --quiet --fix",
+    "semver": "semantic-release"
   },
   "devDependencies": {
     "@types/co-body": "^5.1.0",
