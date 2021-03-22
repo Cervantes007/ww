@@ -1,4 +1,5 @@
 module.exports = {
+  base: !process.env.CI || (process.env.CI && process.env.CI.toLowerCase() !== 'true') ? '/' : '/ww/',
   title: 'Wind Waker',
   description: 'Node.js framework',
   themeConfig: {
