@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Cervantes007/ww/compare/v1.0.0...v1.0.1) (2021-03-22)
+
+
+### Bug Fixes
+
+* **docs:** update vuepress base ([2230601](https://github.com/Cervantes007/ww/commit/22306019e1343df75f2865e1b3720bb5a96401d6))
+
 # 1.0.0 (2021-03-22)
 
 
